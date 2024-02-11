@@ -1,2 +1,2 @@
-# comp2315mj
+# COMP2315 Martes - Jueves
 Programación Estructurada Martes-Jueves
