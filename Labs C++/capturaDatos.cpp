@@ -9,23 +9,25 @@ int main()
     char caracter;
     string cadena;
 
-    cout <<"Ingrese un número entero: ";
+    cout <<"Ingrese un numero entero: ";
     cin >> entero;
 
-    cout <<"Ingrese un número entero: ";
+    cout <<"Ingrese un numero flotante: ";
     cin >> flotante;
 
-    cout <<"Ingrese un número entero: ";
+    cout <<"Ingrese un caracter: ";
     cin >> caracter;
 
-    cout <<"Ingrese un número entero: ";
+    cout <<"Ingrese una cadena: ";
+    cin.ignore();
     getline(cin,cadena);
 
+
     cout <<"----------------------------------"<<endl;
-    cout <<"El número de tipo entero entrado fue: "<<entero<<endl;
-    cout <<"El número de tipo float entrado fue: "<<flotante<<endl;
-    cout <<"El número de tipo caracter entrado fue: "<<caracter<<endl;
-    cout <<"El número de tipo cadena entrado fue: "<<cadena<<endl;
+    cout <<"El numero de tipo entero entrado fue: "<<entero<<endl;
+    cout <<"El numero de tipo float entrado fue: "<<flotante<<endl;
+    cout <<"El numero de tipo caracter entrado fue: "<<caracter<<endl;
+    cout <<"El numero de tipo cadena entrado fue: "<<cadena<<endl;
 
     return 0;
 }
